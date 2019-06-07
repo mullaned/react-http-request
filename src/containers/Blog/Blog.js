@@ -56,7 +56,17 @@ class Blog extends Component {
          
 
         return (
-            <div>
+            <div className="Blog">
+                <header>
+                    <nav>
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">New Post</a></li>
+                            
+                        </ul>
+                    </nav>
+                </header>
+                <h1 style={{textAlign: "center"}}>React HTTP Requests with Axios</h1>
                 <section className="Posts">
                     {posts}
                 </section>
